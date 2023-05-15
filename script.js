@@ -19,7 +19,6 @@ const show_english_text = function (){
 
 }
 
-show_english_text()
 
 const show_armenian_text = function (){
     for(let i of armenian_text) {
@@ -31,8 +30,7 @@ const show_armenian_text = function (){
     }
 }
 
-
-
+show_armenian_text()
 
 
 armenian_btn.addEventListener('click', function() {
