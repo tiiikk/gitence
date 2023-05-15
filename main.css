@@ -97,7 +97,7 @@ button:hover {
 #contacts {
     background-color: #183D74;
     margin: auto;
-    max-width: 25%;
+    max-width: 35%;
     border-radius: 10px;
 
 }
@@ -138,12 +138,7 @@ li:hover {
 
 
 
-.image-container img{
-    width: 70%;
-    padding-left: 20%;
-    height: 700px ;
 
-}
 
 #contacts p{
     color: white;
