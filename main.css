@@ -26,7 +26,7 @@ header h1 {
 #lang_buttons {
     text-align: right;
     margin-right: 5%;
-    margin-top: 1%;
+    margin-top: -70px;
 }
 #lang_buttons button {
     font-size: larger;
@@ -50,6 +50,10 @@ button:hover {
     transition: transform 0.1s ease-in-out;
 
     /* This increases the size of the element on active state */
+}
+
+main{
+    padding-top: 8%;
 }
 
  main button{
