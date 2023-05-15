@@ -58,7 +58,7 @@ button:hover {
      background-color: #08283F;
      font-family: Cambria  ;
      font-size:180%;
-     margin-top: 5%;
+     margin-top: 3%;
      border: none;
      display: block;
      background-image: url("background_image1.jpg");
@@ -71,8 +71,7 @@ button:hover {
      text-align: center;
      font-size: 150%;
      margin-left: 15%;
-     margin-top: -50px; /* adjust the value as needed */
-
+    margin-top: 4%;
  }
 
 
