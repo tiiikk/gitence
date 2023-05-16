@@ -122,13 +122,14 @@ main{
     font-family: "Arial";
 
 }
-
+ul{
+    text-align: justify-all;
+}
 
 li {
     font-size: 150%;
     color: #fff;
     margin-top: 3%;
-    text-align: justify;
     padding-left: 5%;
     list-style-type: none;
     transition: transform 0.1s ease-in-out;
