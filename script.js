@@ -52,3 +52,17 @@ function scrollToContacts() {
     goalsSection.scrollIntoView({ behavior: 'smooth' });
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
