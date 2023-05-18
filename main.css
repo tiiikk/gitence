@@ -12,19 +12,18 @@ body {
 }
 
 .logo {
-    width: 6%;
+
+    width: 4.5%;
     height: auto;
-    padding-top: 2% ;
 }
 
 header {
     background-image: url("background_image1.jpg");
-
 }
 
 header h1 {
     color: #ffffff;
-    font-family: Cambria;
+    font-family: Fahkwang SemiBold;
     font-size: 300%;
     margin-left: 2%;
     text-align: left;
@@ -154,7 +153,11 @@ li:hover {
     color: white;
 
 }
-
+.footer_logo{
+    padding-left: 40%;
+    width: 18%;
+    height: auto;
+}
 /* Footer Styles */
 footer {
     background-image: url("background_image1.jpg");
