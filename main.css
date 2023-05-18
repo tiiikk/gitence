@@ -14,8 +14,11 @@ body {
 .logo {
     width: 20%;
     height: auto;
-    padding-left: 8%;
-    margin-top: -15%;
+    position: absolute;
+    /*top: -14%; !* Adjust the top position as needed *!*/
+    /*left: 7%; !* Adjust the left position as needed *!*/
+    top: -60px;
+    left: 90px;
 }
 
 
