@@ -12,10 +12,14 @@ body {
 }
 
 .logo {
-
-    width: 4.5%;
+    width: 20%;
     height: auto;
+    padding-left: 8%;
+    margin-top: -200px;
 }
+
+
+
 
 header {
     background-image: url("background_image1.jpg");
@@ -27,6 +31,8 @@ header h1 {
     font-size: 300%;
     margin-left: 2%;
     text-align: left;
+
+
 }
 #lang_buttons {
     text-align: right;
@@ -107,6 +113,7 @@ main{
     margin: auto;
     max-width: 35%;
     border-radius: 10px;
+    margin-bottom: 10%;
 
 }
 #contacts h2 {
@@ -154,9 +161,11 @@ li:hover {
 
 }
 .footer_logo{
-    padding-left: 40%;
-    width: 18%;
-    height: auto;
+    margin-bottom: -100px;
+    margin-top: -200px;
+    padding-left: 30%;
+    width: 40%;
+    height: 10%;
 }
 /* Footer Styles */
 footer {
