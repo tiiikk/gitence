@@ -1,4 +1,3 @@
-/* Global Styles */
 body {
     margin: 0;
     padding: 0;
@@ -11,15 +10,39 @@ body {
     background-size: contain;
 }
 
-.logo {
-    width: 20%;
-    height: auto;
-    position: absolute;
-    /*top: -14%; !* Adjust the top position as needed *!*/
-    /*left: 7%; !* Adjust the left position as needed *!*/
-    top: -60px;
-    left: 90px;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    background-color: #f8f8f8; /* Adjust the background color as needed */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    z-index: 999; /* Adjust the z-index value as needed */
 }
+
+.container_logo {
+    flex-grow: 1;
+    margin-left: -70px; /* Adjust the margin as needed */
+
+}
+
+.logo {
+    width: 250px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+
+}
+
+#lang_buttons {
+    display: flex;
+    gap: 20px; /* Adjust the gap between buttons as needed */
+    margin-right: 60px;
+}
+
 
 
 
@@ -39,11 +62,7 @@ header h1 {
 
 
 }
-#lang_buttons {
-    text-align: right;
-    margin-right: 5%;
-    margin-top: -100px;
-}
+
 #lang_buttons button {
     font-size: larger;
     display: inline-block;
@@ -55,7 +74,6 @@ header h1 {
     border: none;
     background-image: url("background_image1.jpg");
 
-    /*border: 0.5px solid white;*/
 }
 
 
@@ -69,7 +87,7 @@ button:hover {
 }
 
 main{
-    padding-top: 8%;
+    padding-top: 15%;
 }
 
  main button{
