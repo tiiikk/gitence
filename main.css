@@ -15,14 +15,16 @@ body {
     width: 20%;
     height: auto;
     padding-left: 8%;
-    margin-top: -200px;
+    margin-top: -15%;
 }
+
 
 
 
 
 header {
     background-image: url("background_image1.jpg");
+
 }
 
 header h1 {
